@@ -1,1 +1,53 @@
+body{
+    padding: 1%;
+    margin: 1%;
 
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+}
+div{
+    background-color: #cee4f0;
+    margin: 1%;
+    position: relative;
+}
+h2{
+    float: right;
+    padding: 0% 2%;
+    margin: 1px;
+    width: 35%;
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    clear:both;
+    padding: 1% 2%;
+    /*font-size: 110%;*/
+}
+.noodles h2{
+    background-color: rgb(0, 60, 255);
+}
+.pasta h2{
+    background-color: rgb(231, 19, 136);
+}
+.pizza h2{
+    background-color: rgb(155, 4, 155);
+}
+@media all and (min-width:768px) and (max-width: 991px){
+    .noodles, .pasta{
+        width: 48%;
+        float: left;
+    }
+    .pizza{
+        float:left;
+    }
+}
+@media all and (min-width: 992px){
+    div{
+        width:30%;
+        float: left;
+    }
+}
